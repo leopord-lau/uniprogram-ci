@@ -1,0 +1,27 @@
+{
+  "name": "uniprogram-ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leopord-lau/uniprogram-ci.git"
+  },
+  "keywords": [
+    "miniprogram",
+    "cli"
+  ],
+  "author": "leo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leopord-lau/uniprogram-ci/issues"
+  },
+  "homepage": "https://github.com/leopord-lau/uniprogram-ci#readme",
+  "devDependencies": {
+    "commander": "^9.4.0",
+    "miniprogram-ci": "^1.8.35"
+  }
+}
