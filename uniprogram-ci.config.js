@@ -1,9 +1,9 @@
 const path = require("path");
 module.exports = {
   name: "uniprogram-ci pakcage",
-  projectPath: process.cwd(),
+  projectPath: __dirname,
   // appid: "wxdd3948dc1c7f95c2",
-  privateKeyPath: process.cwd(),
+  privateKeyPath:__dirname + '/privateKey.key',
   desc: "版本描述可选",
   version: "1.0.0",
   type: "miniprogram",
