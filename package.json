@@ -1,8 +1,11 @@
 {
   "name": "uniprogram-ci",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "",
-  "main": "index.js",
+  "main": "./index.js",
+  "bin": {
+    "uniprogram-ci": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,7 +23,7 @@
     "url": "https://github.com/leopord-lau/uniprogram-ci/issues"
   },
   "homepage": "https://github.com/leopord-lau/uniprogram-ci#readme",
-  "devDependencies": {
+  "dependencies": {
     "commander": "^9.4.0",
     "miniprogram-ci": "^1.8.35"
   }
